@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 100px;
+  height: 500px;
+}
+
+.sky {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sky-children {
+  height: 100%;
+}
+
+.ocean {
+  height: 50%;
+  text-align: center;
+  background-color: dodgerblue;
+}
+
+.ocean > .text {
+  font-size: 5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: hsl(210, 64%, 38%);
+  text-shadow: 1.5px 1px hsl(210, 98%, 65%);
+}
+
+.periscope {
+  position: relative;
+  bottom: 0.4em;
+}
+
+.sky-layer-a {
+  background-color: hsl(210, 100%, 80%);
+}
+
+.sky-layer-b {
+  background-color: hsl(210, 100%, 84%);
+}
+
+.sky-layer-c {
+  background-color: hsl(210, 100%, 88%);
+}
+
+.sky-layer-d {
+  background-color: hsl(210, 100%, 92%);
+}
+
+.sky-layer-e {
+  background-color: hsl(210, 100%, 96%);
+}
